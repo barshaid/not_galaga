@@ -1773,6 +1773,11 @@ PrefabInstance:
       propertyPath: shotTimeMax
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114339271854877628, guid: fdaaab53a8b4c0143b19d2a2e4007e44,
+        type: 3}
+      propertyPath: shotRate
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 114640587493707362, guid: fdaaab53a8b4c0143b19d2a2e4007e44,
         type: 3}
       propertyPath: m_Enabled
@@ -2256,6 +2261,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114960433178452790, guid: 8e33fda0c220936498f5288af83d7450,
+        type: 3}
+      propertyPath: destructionVFX
+      value: 
+      objectReference: {fileID: 1587261729604890, guid: 600ec83cba1cec448bf41a6607229741,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e33fda0c220936498f5288af83d7450, type: 3}
 --- !u!1001 &1789282653

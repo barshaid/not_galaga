@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b6089e27b1bf04d872f2468cdcd91e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -3
+  speed: -5
 --- !u!114 &114558762702151638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,9 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 002f4bcf8b0ec074f8485b31c91504b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
   enemyBullet: 1
-  destroyedByCollision: 0
 --- !u!50 &50246834944912052
 Rigidbody2D:
   serializedVersion: 4

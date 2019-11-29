@@ -13,13 +13,13 @@ public class Enemy : MonoBehaviour
 
     public void Start()
     {
-        shotRate = Time.time + (float)Random.Range(1, 15);
+        shotRate = Time.time + (float)Random.Range(1, 10);
     }
     private void Update()
     {
         if(Time.time > shotRate)
         {
-            shotRate = Time.time + (float)Random.Range(1, 15);
+            shotRate = Time.time + (float)Random.Range(1, 10);
             Instantiate(Projectile, gameObject.transform.position, Quaternion.identity);
         }
     }
